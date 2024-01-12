@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.cartina-interattiva-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  border-radius: 10px;
+}
+
+.cartina-interattiva-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
